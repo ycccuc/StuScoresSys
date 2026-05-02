@@ -1,0 +1,26 @@
+[
+{
+  "directory": "D:/CodeSave/VSCode_Saved/StuScoresSys/build",
+  "command": "C:\\mingw64\\bin\\g++.exe  @CMakeFiles/StuScoresSys.dir/includes_CXX.rsp -g -std=c++17 -Wall -Wextra -Wpedantic -o CMakeFiles\\StuScoresSys.dir\\Src\\Student.cpp.obj -c D:\\CodeSave\\VSCode_Saved\\StuScoresSys\\Src\\Student.cpp",
+  "file": "D:/CodeSave/VSCode_Saved/StuScoresSys/Src/Student.cpp",
+  "output": "CMakeFiles/StuScoresSys.dir/Src/Student.cpp.obj"
+},
+{
+  "directory": "D:/CodeSave/VSCode_Saved/StuScoresSys/build",
+  "command": "C:\\mingw64\\bin\\g++.exe  @CMakeFiles/StuScoresSys.dir/includes_CXX.rsp -g -std=c++17 -Wall -Wextra -Wpedantic -o CMakeFiles\\StuScoresSys.dir\\Src\\StudentManager.cpp.obj -c D:\\CodeSave\\VSCode_Saved\\StuScoresSys\\Src\\StudentManager.cpp",
+  "file": "D:/CodeSave/VSCode_Saved/StuScoresSys/Src/StudentManager.cpp",
+  "output": "CMakeFiles/StuScoresSys.dir/Src/StudentManager.cpp.obj"
+},
+{
+  "directory": "D:/CodeSave/VSCode_Saved/StuScoresSys/build",
+  "command": "C:\\mingw64\\bin\\g++.exe  @CMakeFiles/StuScoresSys.dir/includes_CXX.rsp -g -std=c++17 -Wall -Wextra -Wpedantic -o CMakeFiles\\StuScoresSys.dir\\Src\\UI.cpp.obj -c D:\\CodeSave\\VSCode_Saved\\StuScoresSys\\Src\\UI.cpp",
+  "file": "D:/CodeSave/VSCode_Saved/StuScoresSys/Src/UI.cpp",
+  "output": "CMakeFiles/StuScoresSys.dir/Src/UI.cpp.obj"
+},
+{
+  "directory": "D:/CodeSave/VSCode_Saved/StuScoresSys/build",
+  "command": "C:\\mingw64\\bin\\g++.exe  @CMakeFiles/StuScoresSys.dir/includes_CXX.rsp -g -std=c++17 -Wall -Wextra -Wpedantic -o CMakeFiles\\StuScoresSys.dir\\Src\\main.cpp.obj -c D:\\CodeSave\\VSCode_Saved\\StuScoresSys\\Src\\main.cpp",
+  "file": "D:/CodeSave/VSCode_Saved/StuScoresSys/Src/main.cpp",
+  "output": "CMakeFiles/StuScoresSys.dir/Src/main.cpp.obj"
+}
+]

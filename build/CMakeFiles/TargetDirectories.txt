@@ -1,0 +1,3 @@
+D:/CodeSave/VSCode_Saved/StuScoresSys/build/CMakeFiles/StuScoresSys.dir
+D:/CodeSave/VSCode_Saved/StuScoresSys/build/CMakeFiles/edit_cache.dir
+D:/CodeSave/VSCode_Saved/StuScoresSys/build/CMakeFiles/rebuild_cache.dir
