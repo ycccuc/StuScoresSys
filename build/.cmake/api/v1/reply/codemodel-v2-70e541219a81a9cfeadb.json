@@ -28,7 +28,7 @@
 					[
 						0
 					],
-					"name" : "StuScoresSys",
+					"name" : "StuScoreSys",
 					"targetIndexes" : 
 					[
 						0
@@ -39,9 +39,9 @@
 			[
 				{
 					"directoryIndex" : 0,
-					"id" : "StuScoresSys::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-StuScoresSys-Debug-49acfd09c64db25c3956.json",
-					"name" : "StuScoresSys",
+					"id" : "StuScoreSys::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-StuScoreSys-Debug-cf89ffc36b1fca3bf59e.json",
+					"name" : "StuScoreSys",
 					"projectIndex" : 0
 				}
 			]

@@ -155,10 +155,10 @@
 				},
 				{
 					"name" : "HELPSTRING",
-					"value" : "CXX compiler"
+					"value" : "No help, variable specified on the command line."
 				}
 			],
-			"type" : "STRING",
+			"type" : "FILEPATH",
 			"value" : "C:/mingw64/bin/g++.exe"
 		},
 		{
@@ -539,7 +539,7 @@
 				}
 			],
 			"type" : "PATH",
-			"value" : "C:/Program Files (x86)/StuScoresSys"
+			"value" : "C:/Program Files (x86)/StuScoreSys"
 		},
 		{
 			"name" : "CMAKE_LINKER",
@@ -783,7 +783,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "StuScoresSys"
+			"value" : "StuScoreSys"
 		},
 		{
 			"name" : "CMAKE_PROJECT_SPDX_LICENSE",
@@ -807,7 +807,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "1.0"
+			"value" : "8.0"
 		},
 		{
 			"name" : "CMAKE_PROJECT_VERSION_MAJOR",
@@ -819,7 +819,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "1"
+			"value" : "8"
 		},
 		{
 			"name" : "CMAKE_PROJECT_VERSION_MINOR",
@@ -1250,7 +1250,7 @@
 			"value" : "FALSE"
 		},
 		{
-			"name" : "StuScoresSys_BINARY_DIR",
+			"name" : "StuScoreSys_BINARY_DIR",
 			"properties" : 
 			[
 				{
@@ -1262,7 +1262,7 @@
 			"value" : "D:/CodeSave/VSCode_Saved/StuScoresSys/build"
 		},
 		{
-			"name" : "StuScoresSys_IS_TOP_LEVEL",
+			"name" : "StuScoreSys_IS_TOP_LEVEL",
 			"properties" : 
 			[
 				{
@@ -1274,7 +1274,7 @@
 			"value" : "ON"
 		},
 		{
-			"name" : "StuScoresSys_SOURCE_DIR",
+			"name" : "StuScoreSys_SOURCE_DIR",
 			"properties" : 
 			[
 				{

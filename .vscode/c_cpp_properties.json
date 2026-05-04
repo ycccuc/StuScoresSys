@@ -1,12 +1,15 @@
 {
-    "configurations": [
+    "configurations": 
+    [
         {
             "name": "Win32",
-            "includePath": [
+            "includePath": 
+            [
                 "${workspaceFolder}/Include",
                 "${workspaceFolder}/Src"
             ],
-            "defines": [
+            "defines": 
+            [
                 "_DEBUG",
                 "UNICODE",
                 "_UNICODE"

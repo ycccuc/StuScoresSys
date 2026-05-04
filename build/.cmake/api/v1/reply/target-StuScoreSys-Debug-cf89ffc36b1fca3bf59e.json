@@ -2,10 +2,10 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "bin/StuScoresSys.exe"
+			"path" : "bin/StuScoreSys.exe"
 		},
 		{
-			"path" : "bin/StuScoresSys.pdb"
+			"path" : "bin/StuScoreSys.pdb"
 		}
 	],
 	"backtrace" : 1,
@@ -14,7 +14,6 @@
 		"commands" : 
 		[
 			"add_executable",
-			"target_compile_options",
 			"target_include_directories"
 		],
 		"files" : 
@@ -29,19 +28,13 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 18,
+				"line" : 9,
 				"parent" : 0
 			},
 			{
 				"command" : 1,
 				"file" : 0,
-				"line" : 29,
-				"parent" : 0
-			},
-			{
-				"command" : 2,
-				"file" : 0,
-				"line" : 21,
+				"line" : 11,
 				"parent" : 0
 			}
 		]
@@ -58,25 +51,13 @@
 			[
 				{
 					"fragment" : "-g -std=c++17"
-				},
-				{
-					"backtrace" : 2,
-					"fragment" : "-Wall"
-				},
-				{
-					"backtrace" : 2,
-					"fragment" : "-Wextra"
-				},
-				{
-					"backtrace" : 2,
-					"fragment" : "-Wpedantic"
 				}
 			],
 			"includes" : 
 			[
 				{
-					"backtrace" : 3,
-					"path" : "D:/CodeSave/VSCode_Saved/StuScoresSys/Include"
+					"backtrace" : 2,
+					"path" : "D:/CodeSave/VSCode_Saved/StuScoresSys/include"
 				}
 			],
 			"language" : "CXX",
@@ -97,7 +78,7 @@
 			]
 		}
 	],
-	"id" : "StuScoresSys::@6890427a1f51a3e7e1df",
+	"id" : "StuScoreSys::@6890427a1f51a3e7e1df",
 	"link" : 
 	{
 		"commandFragments" : 
@@ -113,8 +94,8 @@
 		],
 		"language" : "CXX"
 	},
-	"name" : "StuScoresSys",
-	"nameOnDisk" : "StuScoresSys.exe",
+	"name" : "StuScoreSys",
+	"nameOnDisk" : "StuScoreSys.exe",
 	"paths" : 
 	{
 		"build" : ".",
@@ -138,25 +119,25 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "Src/Student.cpp",
+			"path" : "src/Student.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "Src/StudentManager.cpp",
+			"path" : "src/StudentManager.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "Src/UI.cpp",
+			"path" : "src/UI.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "Src/main.cpp",
+			"path" : "src/main.cpp",
 			"sourceGroupIndex" : 0
 		}
 	],

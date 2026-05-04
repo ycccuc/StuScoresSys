@@ -4,7 +4,7 @@
 # compile CXX with C:/mingw64/bin/g++.exe
 CXX_DEFINES = 
 
-CXX_INCLUDES = @CMakeFiles/StuScoresSys.dir/includes_CXX.rsp
+CXX_INCLUDES = @CMakeFiles/StuScoreSys.dir/includes_CXX.rsp
 
-CXX_FLAGS = -g -std=c++17 -Wall -Wextra -Wpedantic
+CXX_FLAGS = -g -std=c++17
 
