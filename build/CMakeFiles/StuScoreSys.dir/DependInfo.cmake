@@ -8,10 +8,11 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "D:/CodeSave/VSCode_Saved/StuScoresSys/src/Student.cpp" "CMakeFiles/StuScoreSys.dir/src/Student.cpp.obj" "gcc" "CMakeFiles/StuScoreSys.dir/src/Student.cpp.obj.d"
-  "D:/CodeSave/VSCode_Saved/StuScoresSys/src/StudentManager.cpp" "CMakeFiles/StuScoreSys.dir/src/StudentManager.cpp.obj" "gcc" "CMakeFiles/StuScoreSys.dir/src/StudentManager.cpp.obj.d"
-  "D:/CodeSave/VSCode_Saved/StuScoresSys/src/UI.cpp" "CMakeFiles/StuScoreSys.dir/src/UI.cpp.obj" "gcc" "CMakeFiles/StuScoreSys.dir/src/UI.cpp.obj.d"
-  "D:/CodeSave/VSCode_Saved/StuScoresSys/src/main.cpp" "CMakeFiles/StuScoreSys.dir/src/main.cpp.obj" "gcc" "CMakeFiles/StuScoreSys.dir/src/main.cpp.obj.d"
+  "D:/CodeSave/VSCode_Saved/StuScoresSys/Src/Logger.cpp" "CMakeFiles/StuScoreSys.dir/Src/Logger.cpp.obj" "gcc" "CMakeFiles/StuScoreSys.dir/Src/Logger.cpp.obj.d"
+  "D:/CodeSave/VSCode_Saved/StuScoresSys/Src/Student.cpp" "CMakeFiles/StuScoreSys.dir/Src/Student.cpp.obj" "gcc" "CMakeFiles/StuScoreSys.dir/Src/Student.cpp.obj.d"
+  "D:/CodeSave/VSCode_Saved/StuScoresSys/Src/StudentManager.cpp" "CMakeFiles/StuScoreSys.dir/Src/StudentManager.cpp.obj" "gcc" "CMakeFiles/StuScoreSys.dir/Src/StudentManager.cpp.obj.d"
+  "D:/CodeSave/VSCode_Saved/StuScoresSys/Src/UI.cpp" "CMakeFiles/StuScoreSys.dir/Src/UI.cpp.obj" "gcc" "CMakeFiles/StuScoreSys.dir/Src/UI.cpp.obj.d"
+  "D:/CodeSave/VSCode_Saved/StuScoresSys/Src/main.cpp" "CMakeFiles/StuScoreSys.dir/Src/main.cpp.obj" "gcc" "CMakeFiles/StuScoreSys.dir/Src/main.cpp.obj.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

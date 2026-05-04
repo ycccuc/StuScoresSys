@@ -1,44 +1,93 @@
 #include "Student.h"
-#include <numeric>
 #include <iomanip>
 
-Student::Student(int id, const std::string &name,
-                 const std::array<double, SUBJECT_COUNT> &scores)
-    : id_(id), name_(name), scores_(scores)
+Student::Student()
 {
+    id_ = 0;
+    name_ = "";
+    for (int i = 0; i < SUBJECT_COUNT; i++)
+    {
+        scores_[i] = 0.0;
+    }
+    average_ = 0.0;
+}
+
+Student::Student(int id, const std::string &name, const double scores[SUBJECT_COUNT])
+{
+    id_ = id;
+    name_ = name;
+    for (int i = 0; i < SUBJECT_COUNT; i++)
+    {
+        scores_[i] = scores[i];
+    }
+    calcAverage();
+}
+
+int Student::getId() const
+{
+    return id_;
+}
+
+std::string Student::getName() const
+{
+    return name_;
+}
+
+double Student::getScore(int index) const
+{
+    return scores_[index];
+}
+
+double Student::getAverage() const
+{
+    return average_;
+}
+
+void Student::setId(int id)
+{
+    id_ = id;
+}
+
+void Student::setName(const std::string &name)
+{
+    name_ = name;
+}
+
+void Student::setScores(const double scores[SUBJECT_COUNT])
+{
+    for (int i = 0; i < SUBJECT_COUNT; i++)
+    {
+        scores_[i] = scores[i];
+    }
     calcAverage();
 }
 
 void Student::calcAverage()
 {
-    double sum = std::accumulate(scores_.begin(), scores_.end(), 0.0);
+    double sum = 0.0;
+    for (int i = 0; i < SUBJECT_COUNT; i++)
+    {
+        sum += scores_[i];
+    }
     average_ = sum / SUBJECT_COUNT;
 }
 
-void Student::setScores(const std::array<double, SUBJECT_COUNT> &scores)
+void Student::printToFile(std::ostream &out) const
 {
-    scores_ = scores;
-    calcAverage();
+    out << id_ << " " << name_;
+    for (int i = 0; i < SUBJECT_COUNT; i++)
+    {
+        out << " " << std::fixed << std::setprecision(2) << scores_[i];
+    }
+    out << " " << std::fixed << std::setprecision(2) << average_;
 }
 
-std::ostream &operator<<(std::ostream &os, const Student &s)
+void Student::readFromFile(std::istream &in)
 {
-    os << s.id_ << ' ' << s.name_;
-    for (double sc : s.scores_)
+    in >> id_ >> name_;
+    for (int i = 0; i < SUBJECT_COUNT; i++)
     {
-        os << ' ' << std::fixed << std::setprecision(2) << sc;
+        in >> scores_[i];
     }
-    os << ' ' << std::fixed << std::setprecision(2) << s.average_;
-    return os;
-}
-
-std::istream &operator>>(std::istream &is, Student &s)
-{
-    is >> s.id_ >> s.name_;
-    for (int i = 0; i < SUBJECT_COUNT; ++i)
-    {
-        is >> s.scores_[i];
-    }
-    is >> s.average_;
-    return is;
+    in >> average_;
 }

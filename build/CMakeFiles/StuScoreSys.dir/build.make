@@ -71,85 +71,102 @@ include CMakeFiles/StuScoreSys.dir/flags.make
 CMakeFiles/StuScoreSys.dir/codegen:
 .PHONY : CMakeFiles/StuScoreSys.dir/codegen
 
-CMakeFiles/StuScoreSys.dir/src/Student.cpp.obj: CMakeFiles/StuScoreSys.dir/flags.make
-CMakeFiles/StuScoreSys.dir/src/Student.cpp.obj: CMakeFiles/StuScoreSys.dir/includes_CXX.rsp
-CMakeFiles/StuScoreSys.dir/src/Student.cpp.obj: D:/CodeSave/VSCode_Saved/StuScoresSys/src/Student.cpp
-CMakeFiles/StuScoreSys.dir/src/Student.cpp.obj: CMakeFiles/StuScoreSys.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\CodeSave\VSCode_Saved\StuScoresSys\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/StuScoreSys.dir/src/Student.cpp.obj"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/StuScoreSys.dir/src/Student.cpp.obj -MF CMakeFiles\StuScoreSys.dir\src\Student.cpp.obj.d -o CMakeFiles\StuScoreSys.dir\src\Student.cpp.obj -c D:\CodeSave\VSCode_Saved\StuScoresSys\src\Student.cpp
+CMakeFiles/StuScoreSys.dir/Src/Logger.cpp.obj: CMakeFiles/StuScoreSys.dir/flags.make
+CMakeFiles/StuScoreSys.dir/Src/Logger.cpp.obj: CMakeFiles/StuScoreSys.dir/includes_CXX.rsp
+CMakeFiles/StuScoreSys.dir/Src/Logger.cpp.obj: D:/CodeSave/VSCode_Saved/StuScoresSys/Src/Logger.cpp
+CMakeFiles/StuScoreSys.dir/Src/Logger.cpp.obj: CMakeFiles/StuScoreSys.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\CodeSave\VSCode_Saved\StuScoresSys\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/StuScoreSys.dir/Src/Logger.cpp.obj"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/StuScoreSys.dir/Src/Logger.cpp.obj -MF CMakeFiles\StuScoreSys.dir\Src\Logger.cpp.obj.d -o CMakeFiles\StuScoreSys.dir\Src\Logger.cpp.obj -c D:\CodeSave\VSCode_Saved\StuScoresSys\Src\Logger.cpp
 
-CMakeFiles/StuScoreSys.dir/src/Student.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/StuScoreSys.dir/src/Student.cpp.i"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\CodeSave\VSCode_Saved\StuScoresSys\src\Student.cpp > CMakeFiles\StuScoreSys.dir\src\Student.cpp.i
+CMakeFiles/StuScoreSys.dir/Src/Logger.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/StuScoreSys.dir/Src/Logger.cpp.i"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\CodeSave\VSCode_Saved\StuScoresSys\Src\Logger.cpp > CMakeFiles\StuScoreSys.dir\Src\Logger.cpp.i
 
-CMakeFiles/StuScoreSys.dir/src/Student.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/StuScoreSys.dir/src/Student.cpp.s"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\CodeSave\VSCode_Saved\StuScoresSys\src\Student.cpp -o CMakeFiles\StuScoreSys.dir\src\Student.cpp.s
+CMakeFiles/StuScoreSys.dir/Src/Logger.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/StuScoreSys.dir/Src/Logger.cpp.s"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\CodeSave\VSCode_Saved\StuScoresSys\Src\Logger.cpp -o CMakeFiles\StuScoreSys.dir\Src\Logger.cpp.s
 
-CMakeFiles/StuScoreSys.dir/src/StudentManager.cpp.obj: CMakeFiles/StuScoreSys.dir/flags.make
-CMakeFiles/StuScoreSys.dir/src/StudentManager.cpp.obj: CMakeFiles/StuScoreSys.dir/includes_CXX.rsp
-CMakeFiles/StuScoreSys.dir/src/StudentManager.cpp.obj: D:/CodeSave/VSCode_Saved/StuScoresSys/src/StudentManager.cpp
-CMakeFiles/StuScoreSys.dir/src/StudentManager.cpp.obj: CMakeFiles/StuScoreSys.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\CodeSave\VSCode_Saved\StuScoresSys\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/StuScoreSys.dir/src/StudentManager.cpp.obj"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/StuScoreSys.dir/src/StudentManager.cpp.obj -MF CMakeFiles\StuScoreSys.dir\src\StudentManager.cpp.obj.d -o CMakeFiles\StuScoreSys.dir\src\StudentManager.cpp.obj -c D:\CodeSave\VSCode_Saved\StuScoresSys\src\StudentManager.cpp
+CMakeFiles/StuScoreSys.dir/Src/Student.cpp.obj: CMakeFiles/StuScoreSys.dir/flags.make
+CMakeFiles/StuScoreSys.dir/Src/Student.cpp.obj: CMakeFiles/StuScoreSys.dir/includes_CXX.rsp
+CMakeFiles/StuScoreSys.dir/Src/Student.cpp.obj: D:/CodeSave/VSCode_Saved/StuScoresSys/Src/Student.cpp
+CMakeFiles/StuScoreSys.dir/Src/Student.cpp.obj: CMakeFiles/StuScoreSys.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\CodeSave\VSCode_Saved\StuScoresSys\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/StuScoreSys.dir/Src/Student.cpp.obj"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/StuScoreSys.dir/Src/Student.cpp.obj -MF CMakeFiles\StuScoreSys.dir\Src\Student.cpp.obj.d -o CMakeFiles\StuScoreSys.dir\Src\Student.cpp.obj -c D:\CodeSave\VSCode_Saved\StuScoresSys\Src\Student.cpp
 
-CMakeFiles/StuScoreSys.dir/src/StudentManager.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/StuScoreSys.dir/src/StudentManager.cpp.i"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\CodeSave\VSCode_Saved\StuScoresSys\src\StudentManager.cpp > CMakeFiles\StuScoreSys.dir\src\StudentManager.cpp.i
+CMakeFiles/StuScoreSys.dir/Src/Student.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/StuScoreSys.dir/Src/Student.cpp.i"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\CodeSave\VSCode_Saved\StuScoresSys\Src\Student.cpp > CMakeFiles\StuScoreSys.dir\Src\Student.cpp.i
 
-CMakeFiles/StuScoreSys.dir/src/StudentManager.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/StuScoreSys.dir/src/StudentManager.cpp.s"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\CodeSave\VSCode_Saved\StuScoresSys\src\StudentManager.cpp -o CMakeFiles\StuScoreSys.dir\src\StudentManager.cpp.s
+CMakeFiles/StuScoreSys.dir/Src/Student.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/StuScoreSys.dir/Src/Student.cpp.s"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\CodeSave\VSCode_Saved\StuScoresSys\Src\Student.cpp -o CMakeFiles\StuScoreSys.dir\Src\Student.cpp.s
 
-CMakeFiles/StuScoreSys.dir/src/UI.cpp.obj: CMakeFiles/StuScoreSys.dir/flags.make
-CMakeFiles/StuScoreSys.dir/src/UI.cpp.obj: CMakeFiles/StuScoreSys.dir/includes_CXX.rsp
-CMakeFiles/StuScoreSys.dir/src/UI.cpp.obj: D:/CodeSave/VSCode_Saved/StuScoresSys/src/UI.cpp
-CMakeFiles/StuScoreSys.dir/src/UI.cpp.obj: CMakeFiles/StuScoreSys.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\CodeSave\VSCode_Saved\StuScoresSys\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/StuScoreSys.dir/src/UI.cpp.obj"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/StuScoreSys.dir/src/UI.cpp.obj -MF CMakeFiles\StuScoreSys.dir\src\UI.cpp.obj.d -o CMakeFiles\StuScoreSys.dir\src\UI.cpp.obj -c D:\CodeSave\VSCode_Saved\StuScoresSys\src\UI.cpp
+CMakeFiles/StuScoreSys.dir/Src/StudentManager.cpp.obj: CMakeFiles/StuScoreSys.dir/flags.make
+CMakeFiles/StuScoreSys.dir/Src/StudentManager.cpp.obj: CMakeFiles/StuScoreSys.dir/includes_CXX.rsp
+CMakeFiles/StuScoreSys.dir/Src/StudentManager.cpp.obj: D:/CodeSave/VSCode_Saved/StuScoresSys/Src/StudentManager.cpp
+CMakeFiles/StuScoreSys.dir/Src/StudentManager.cpp.obj: CMakeFiles/StuScoreSys.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\CodeSave\VSCode_Saved\StuScoresSys\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/StuScoreSys.dir/Src/StudentManager.cpp.obj"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/StuScoreSys.dir/Src/StudentManager.cpp.obj -MF CMakeFiles\StuScoreSys.dir\Src\StudentManager.cpp.obj.d -o CMakeFiles\StuScoreSys.dir\Src\StudentManager.cpp.obj -c D:\CodeSave\VSCode_Saved\StuScoresSys\Src\StudentManager.cpp
 
-CMakeFiles/StuScoreSys.dir/src/UI.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/StuScoreSys.dir/src/UI.cpp.i"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\CodeSave\VSCode_Saved\StuScoresSys\src\UI.cpp > CMakeFiles\StuScoreSys.dir\src\UI.cpp.i
+CMakeFiles/StuScoreSys.dir/Src/StudentManager.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/StuScoreSys.dir/Src/StudentManager.cpp.i"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\CodeSave\VSCode_Saved\StuScoresSys\Src\StudentManager.cpp > CMakeFiles\StuScoreSys.dir\Src\StudentManager.cpp.i
 
-CMakeFiles/StuScoreSys.dir/src/UI.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/StuScoreSys.dir/src/UI.cpp.s"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\CodeSave\VSCode_Saved\StuScoresSys\src\UI.cpp -o CMakeFiles\StuScoreSys.dir\src\UI.cpp.s
+CMakeFiles/StuScoreSys.dir/Src/StudentManager.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/StuScoreSys.dir/Src/StudentManager.cpp.s"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\CodeSave\VSCode_Saved\StuScoresSys\Src\StudentManager.cpp -o CMakeFiles\StuScoreSys.dir\Src\StudentManager.cpp.s
 
-CMakeFiles/StuScoreSys.dir/src/main.cpp.obj: CMakeFiles/StuScoreSys.dir/flags.make
-CMakeFiles/StuScoreSys.dir/src/main.cpp.obj: CMakeFiles/StuScoreSys.dir/includes_CXX.rsp
-CMakeFiles/StuScoreSys.dir/src/main.cpp.obj: D:/CodeSave/VSCode_Saved/StuScoresSys/src/main.cpp
-CMakeFiles/StuScoreSys.dir/src/main.cpp.obj: CMakeFiles/StuScoreSys.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\CodeSave\VSCode_Saved\StuScoresSys\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/StuScoreSys.dir/src/main.cpp.obj"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/StuScoreSys.dir/src/main.cpp.obj -MF CMakeFiles\StuScoreSys.dir\src\main.cpp.obj.d -o CMakeFiles\StuScoreSys.dir\src\main.cpp.obj -c D:\CodeSave\VSCode_Saved\StuScoresSys\src\main.cpp
+CMakeFiles/StuScoreSys.dir/Src/UI.cpp.obj: CMakeFiles/StuScoreSys.dir/flags.make
+CMakeFiles/StuScoreSys.dir/Src/UI.cpp.obj: CMakeFiles/StuScoreSys.dir/includes_CXX.rsp
+CMakeFiles/StuScoreSys.dir/Src/UI.cpp.obj: D:/CodeSave/VSCode_Saved/StuScoresSys/Src/UI.cpp
+CMakeFiles/StuScoreSys.dir/Src/UI.cpp.obj: CMakeFiles/StuScoreSys.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\CodeSave\VSCode_Saved\StuScoresSys\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/StuScoreSys.dir/Src/UI.cpp.obj"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/StuScoreSys.dir/Src/UI.cpp.obj -MF CMakeFiles\StuScoreSys.dir\Src\UI.cpp.obj.d -o CMakeFiles\StuScoreSys.dir\Src\UI.cpp.obj -c D:\CodeSave\VSCode_Saved\StuScoresSys\Src\UI.cpp
 
-CMakeFiles/StuScoreSys.dir/src/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/StuScoreSys.dir/src/main.cpp.i"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\CodeSave\VSCode_Saved\StuScoresSys\src\main.cpp > CMakeFiles\StuScoreSys.dir\src\main.cpp.i
+CMakeFiles/StuScoreSys.dir/Src/UI.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/StuScoreSys.dir/Src/UI.cpp.i"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\CodeSave\VSCode_Saved\StuScoresSys\Src\UI.cpp > CMakeFiles\StuScoreSys.dir\Src\UI.cpp.i
 
-CMakeFiles/StuScoreSys.dir/src/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/StuScoreSys.dir/src/main.cpp.s"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\CodeSave\VSCode_Saved\StuScoresSys\src\main.cpp -o CMakeFiles\StuScoreSys.dir\src\main.cpp.s
+CMakeFiles/StuScoreSys.dir/Src/UI.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/StuScoreSys.dir/Src/UI.cpp.s"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\CodeSave\VSCode_Saved\StuScoresSys\Src\UI.cpp -o CMakeFiles\StuScoreSys.dir\Src\UI.cpp.s
+
+CMakeFiles/StuScoreSys.dir/Src/main.cpp.obj: CMakeFiles/StuScoreSys.dir/flags.make
+CMakeFiles/StuScoreSys.dir/Src/main.cpp.obj: CMakeFiles/StuScoreSys.dir/includes_CXX.rsp
+CMakeFiles/StuScoreSys.dir/Src/main.cpp.obj: D:/CodeSave/VSCode_Saved/StuScoresSys/Src/main.cpp
+CMakeFiles/StuScoreSys.dir/Src/main.cpp.obj: CMakeFiles/StuScoreSys.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\CodeSave\VSCode_Saved\StuScoresSys\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/StuScoreSys.dir/Src/main.cpp.obj"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/StuScoreSys.dir/Src/main.cpp.obj -MF CMakeFiles\StuScoreSys.dir\Src\main.cpp.obj.d -o CMakeFiles\StuScoreSys.dir\Src\main.cpp.obj -c D:\CodeSave\VSCode_Saved\StuScoresSys\Src\main.cpp
+
+CMakeFiles/StuScoreSys.dir/Src/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/StuScoreSys.dir/Src/main.cpp.i"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\CodeSave\VSCode_Saved\StuScoresSys\Src\main.cpp > CMakeFiles\StuScoreSys.dir\Src\main.cpp.i
+
+CMakeFiles/StuScoreSys.dir/Src/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/StuScoreSys.dir/Src/main.cpp.s"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\CodeSave\VSCode_Saved\StuScoresSys\Src\main.cpp -o CMakeFiles\StuScoreSys.dir\Src\main.cpp.s
 
 # Object files for target StuScoreSys
 StuScoreSys_OBJECTS = \
-"CMakeFiles/StuScoreSys.dir/src/Student.cpp.obj" \
-"CMakeFiles/StuScoreSys.dir/src/StudentManager.cpp.obj" \
-"CMakeFiles/StuScoreSys.dir/src/UI.cpp.obj" \
-"CMakeFiles/StuScoreSys.dir/src/main.cpp.obj"
+"CMakeFiles/StuScoreSys.dir/Src/Logger.cpp.obj" \
+"CMakeFiles/StuScoreSys.dir/Src/Student.cpp.obj" \
+"CMakeFiles/StuScoreSys.dir/Src/StudentManager.cpp.obj" \
+"CMakeFiles/StuScoreSys.dir/Src/UI.cpp.obj" \
+"CMakeFiles/StuScoreSys.dir/Src/main.cpp.obj"
 
 # External object files for target StuScoreSys
 StuScoreSys_EXTERNAL_OBJECTS =
 
-bin/StuScoreSys.exe: CMakeFiles/StuScoreSys.dir/src/Student.cpp.obj
-bin/StuScoreSys.exe: CMakeFiles/StuScoreSys.dir/src/StudentManager.cpp.obj
-bin/StuScoreSys.exe: CMakeFiles/StuScoreSys.dir/src/UI.cpp.obj
-bin/StuScoreSys.exe: CMakeFiles/StuScoreSys.dir/src/main.cpp.obj
+bin/StuScoreSys.exe: CMakeFiles/StuScoreSys.dir/Src/Logger.cpp.obj
+bin/StuScoreSys.exe: CMakeFiles/StuScoreSys.dir/Src/Student.cpp.obj
+bin/StuScoreSys.exe: CMakeFiles/StuScoreSys.dir/Src/StudentManager.cpp.obj
+bin/StuScoreSys.exe: CMakeFiles/StuScoreSys.dir/Src/UI.cpp.obj
+bin/StuScoreSys.exe: CMakeFiles/StuScoreSys.dir/Src/main.cpp.obj
 bin/StuScoreSys.exe: CMakeFiles/StuScoreSys.dir/build.make
 bin/StuScoreSys.exe: CMakeFiles/StuScoreSys.dir/linkLibs.rsp
 bin/StuScoreSys.exe: CMakeFiles/StuScoreSys.dir/objects1.rsp
 bin/StuScoreSys.exe: CMakeFiles/StuScoreSys.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=D:\CodeSave\VSCode_Saved\StuScoresSys\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable bin\StuScoreSys.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=D:\CodeSave\VSCode_Saved\StuScoresSys\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable bin\StuScoreSys.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\StuScoreSys.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

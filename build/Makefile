@@ -128,101 +128,125 @@ StuScoreSys/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\StuScoreSys.dir\build.make CMakeFiles/StuScoreSys.dir/build
 .PHONY : StuScoreSys/fast
 
-src/Student.obj: src/Student.cpp.obj
-.PHONY : src/Student.obj
+Src/Logger.obj: Src/Logger.cpp.obj
+.PHONY : Src/Logger.obj
 
 # target to build an object file
-src/Student.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\StuScoreSys.dir\build.make CMakeFiles/StuScoreSys.dir/src/Student.cpp.obj
-.PHONY : src/Student.cpp.obj
+Src/Logger.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\StuScoreSys.dir\build.make CMakeFiles/StuScoreSys.dir/Src/Logger.cpp.obj
+.PHONY : Src/Logger.cpp.obj
 
-src/Student.i: src/Student.cpp.i
-.PHONY : src/Student.i
+Src/Logger.i: Src/Logger.cpp.i
+.PHONY : Src/Logger.i
 
 # target to preprocess a source file
-src/Student.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\StuScoreSys.dir\build.make CMakeFiles/StuScoreSys.dir/src/Student.cpp.i
-.PHONY : src/Student.cpp.i
+Src/Logger.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\StuScoreSys.dir\build.make CMakeFiles/StuScoreSys.dir/Src/Logger.cpp.i
+.PHONY : Src/Logger.cpp.i
 
-src/Student.s: src/Student.cpp.s
-.PHONY : src/Student.s
+Src/Logger.s: Src/Logger.cpp.s
+.PHONY : Src/Logger.s
 
 # target to generate assembly for a file
-src/Student.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\StuScoreSys.dir\build.make CMakeFiles/StuScoreSys.dir/src/Student.cpp.s
-.PHONY : src/Student.cpp.s
+Src/Logger.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\StuScoreSys.dir\build.make CMakeFiles/StuScoreSys.dir/Src/Logger.cpp.s
+.PHONY : Src/Logger.cpp.s
 
-src/StudentManager.obj: src/StudentManager.cpp.obj
-.PHONY : src/StudentManager.obj
+Src/Student.obj: Src/Student.cpp.obj
+.PHONY : Src/Student.obj
 
 # target to build an object file
-src/StudentManager.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\StuScoreSys.dir\build.make CMakeFiles/StuScoreSys.dir/src/StudentManager.cpp.obj
-.PHONY : src/StudentManager.cpp.obj
+Src/Student.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\StuScoreSys.dir\build.make CMakeFiles/StuScoreSys.dir/Src/Student.cpp.obj
+.PHONY : Src/Student.cpp.obj
 
-src/StudentManager.i: src/StudentManager.cpp.i
-.PHONY : src/StudentManager.i
+Src/Student.i: Src/Student.cpp.i
+.PHONY : Src/Student.i
 
 # target to preprocess a source file
-src/StudentManager.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\StuScoreSys.dir\build.make CMakeFiles/StuScoreSys.dir/src/StudentManager.cpp.i
-.PHONY : src/StudentManager.cpp.i
+Src/Student.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\StuScoreSys.dir\build.make CMakeFiles/StuScoreSys.dir/Src/Student.cpp.i
+.PHONY : Src/Student.cpp.i
 
-src/StudentManager.s: src/StudentManager.cpp.s
-.PHONY : src/StudentManager.s
+Src/Student.s: Src/Student.cpp.s
+.PHONY : Src/Student.s
 
 # target to generate assembly for a file
-src/StudentManager.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\StuScoreSys.dir\build.make CMakeFiles/StuScoreSys.dir/src/StudentManager.cpp.s
-.PHONY : src/StudentManager.cpp.s
+Src/Student.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\StuScoreSys.dir\build.make CMakeFiles/StuScoreSys.dir/Src/Student.cpp.s
+.PHONY : Src/Student.cpp.s
 
-src/UI.obj: src/UI.cpp.obj
-.PHONY : src/UI.obj
+Src/StudentManager.obj: Src/StudentManager.cpp.obj
+.PHONY : Src/StudentManager.obj
 
 # target to build an object file
-src/UI.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\StuScoreSys.dir\build.make CMakeFiles/StuScoreSys.dir/src/UI.cpp.obj
-.PHONY : src/UI.cpp.obj
+Src/StudentManager.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\StuScoreSys.dir\build.make CMakeFiles/StuScoreSys.dir/Src/StudentManager.cpp.obj
+.PHONY : Src/StudentManager.cpp.obj
 
-src/UI.i: src/UI.cpp.i
-.PHONY : src/UI.i
+Src/StudentManager.i: Src/StudentManager.cpp.i
+.PHONY : Src/StudentManager.i
 
 # target to preprocess a source file
-src/UI.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\StuScoreSys.dir\build.make CMakeFiles/StuScoreSys.dir/src/UI.cpp.i
-.PHONY : src/UI.cpp.i
+Src/StudentManager.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\StuScoreSys.dir\build.make CMakeFiles/StuScoreSys.dir/Src/StudentManager.cpp.i
+.PHONY : Src/StudentManager.cpp.i
 
-src/UI.s: src/UI.cpp.s
-.PHONY : src/UI.s
+Src/StudentManager.s: Src/StudentManager.cpp.s
+.PHONY : Src/StudentManager.s
 
 # target to generate assembly for a file
-src/UI.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\StuScoreSys.dir\build.make CMakeFiles/StuScoreSys.dir/src/UI.cpp.s
-.PHONY : src/UI.cpp.s
+Src/StudentManager.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\StuScoreSys.dir\build.make CMakeFiles/StuScoreSys.dir/Src/StudentManager.cpp.s
+.PHONY : Src/StudentManager.cpp.s
 
-src/main.obj: src/main.cpp.obj
-.PHONY : src/main.obj
+Src/UI.obj: Src/UI.cpp.obj
+.PHONY : Src/UI.obj
 
 # target to build an object file
-src/main.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\StuScoreSys.dir\build.make CMakeFiles/StuScoreSys.dir/src/main.cpp.obj
-.PHONY : src/main.cpp.obj
+Src/UI.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\StuScoreSys.dir\build.make CMakeFiles/StuScoreSys.dir/Src/UI.cpp.obj
+.PHONY : Src/UI.cpp.obj
 
-src/main.i: src/main.cpp.i
-.PHONY : src/main.i
+Src/UI.i: Src/UI.cpp.i
+.PHONY : Src/UI.i
 
 # target to preprocess a source file
-src/main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\StuScoreSys.dir\build.make CMakeFiles/StuScoreSys.dir/src/main.cpp.i
-.PHONY : src/main.cpp.i
+Src/UI.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\StuScoreSys.dir\build.make CMakeFiles/StuScoreSys.dir/Src/UI.cpp.i
+.PHONY : Src/UI.cpp.i
 
-src/main.s: src/main.cpp.s
-.PHONY : src/main.s
+Src/UI.s: Src/UI.cpp.s
+.PHONY : Src/UI.s
 
 # target to generate assembly for a file
-src/main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\StuScoreSys.dir\build.make CMakeFiles/StuScoreSys.dir/src/main.cpp.s
-.PHONY : src/main.cpp.s
+Src/UI.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\StuScoreSys.dir\build.make CMakeFiles/StuScoreSys.dir/Src/UI.cpp.s
+.PHONY : Src/UI.cpp.s
+
+Src/main.obj: Src/main.cpp.obj
+.PHONY : Src/main.obj
+
+# target to build an object file
+Src/main.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\StuScoreSys.dir\build.make CMakeFiles/StuScoreSys.dir/Src/main.cpp.obj
+.PHONY : Src/main.cpp.obj
+
+Src/main.i: Src/main.cpp.i
+.PHONY : Src/main.i
+
+# target to preprocess a source file
+Src/main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\StuScoreSys.dir\build.make CMakeFiles/StuScoreSys.dir/Src/main.cpp.i
+.PHONY : Src/main.cpp.i
+
+Src/main.s: Src/main.cpp.s
+.PHONY : Src/main.s
+
+# target to generate assembly for a file
+Src/main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\StuScoreSys.dir\build.make CMakeFiles/StuScoreSys.dir/Src/main.cpp.s
+.PHONY : Src/main.cpp.s
 
 # Help Target
 help:
@@ -233,18 +257,21 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... StuScoreSys
-	@echo ... src/Student.obj
-	@echo ... src/Student.i
-	@echo ... src/Student.s
-	@echo ... src/StudentManager.obj
-	@echo ... src/StudentManager.i
-	@echo ... src/StudentManager.s
-	@echo ... src/UI.obj
-	@echo ... src/UI.i
-	@echo ... src/UI.s
-	@echo ... src/main.obj
-	@echo ... src/main.i
-	@echo ... src/main.s
+	@echo ... Src/Logger.obj
+	@echo ... Src/Logger.i
+	@echo ... Src/Logger.s
+	@echo ... Src/Student.obj
+	@echo ... Src/Student.i
+	@echo ... Src/Student.s
+	@echo ... Src/StudentManager.obj
+	@echo ... Src/StudentManager.i
+	@echo ... Src/StudentManager.s
+	@echo ... Src/UI.obj
+	@echo ... Src/UI.i
+	@echo ... Src/UI.s
+	@echo ... Src/main.obj
+	@echo ... Src/main.i
+	@echo ... Src/main.s
 .PHONY : help
 
 

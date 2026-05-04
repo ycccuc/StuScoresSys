@@ -84,12 +84,12 @@ clean: CMakeFiles/StuScoreSys.dir/clean
 CMakeFiles/StuScoreSys.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\StuScoreSys.dir\build.make CMakeFiles/StuScoreSys.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\StuScoreSys.dir\build.make CMakeFiles/StuScoreSys.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\CodeSave\VSCode_Saved\StuScoresSys\build\CMakeFiles --progress-num=1,2,3,4,5 "Built target StuScoreSys"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\CodeSave\VSCode_Saved\StuScoresSys\build\CMakeFiles --progress-num=1,2,3,4,5,6 "Built target StuScoreSys"
 .PHONY : CMakeFiles/StuScoreSys.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/StuScoreSys.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\CodeSave\VSCode_Saved\StuScoresSys\build\CMakeFiles 5
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\CodeSave\VSCode_Saved\StuScoresSys\build\CMakeFiles 6
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/StuScoreSys.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start D:\CodeSave\VSCode_Saved\StuScoresSys\build\CMakeFiles 0
 .PHONY : CMakeFiles/StuScoreSys.dir/rule
@@ -101,7 +101,7 @@ StuScoreSys: CMakeFiles/StuScoreSys.dir/rule
 # codegen rule for target.
 CMakeFiles/StuScoreSys.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\StuScoreSys.dir\build.make CMakeFiles/StuScoreSys.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\CodeSave\VSCode_Saved\StuScoresSys\build\CMakeFiles --progress-num=1,2,3,4,5 "Finished codegen for target StuScoreSys"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\CodeSave\VSCode_Saved\StuScoresSys\build\CMakeFiles --progress-num=1,2,3,4,5,6 "Finished codegen for target StuScoreSys"
 .PHONY : CMakeFiles/StuScoreSys.dir/codegen
 
 # clean rule for target.

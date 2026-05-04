@@ -1,50 +1,39 @@
-#pragma once
+#ifndef STUDENT_MANAGER_H
+#define STUDENT_MANAGER_H
+
 #include <vector>
-#include <string>
-#include <array>
-#include <fstream>
-#include "Student.h"
 #include "MyConst.h"
+#include "Student.h"
 
 class StudentManager
 {
 public:
-    explicit StudentManager(const std::string &filename = DATA_FILE);
+    StudentManager();
 
-    // 增删改查
-    ErrorCode add(const Student &s);
-    ErrorCode remove(int id);
-    ErrorCode modify(int id, const std::array<double, SUBJECT_COUNT> &scores);
-    const Student *find(int id) const;
-    const std::vector<Student> &getAll() const { return students_; }
+    ErrorCode addStudent(const Student &s);
+    ErrorCode deleteStudent(int id);
+    ErrorCode modifyStudent(int id, const double newScores[SUBJECT_COUNT]);
+    int findStudent(int id) const;
+    Student getStudent(int index) const;
+    const std::vector<Student> &getAllStudents() const;
 
-    // 文件持久化
-    ErrorCode load();
-    ErrorCode save() const;
+    ErrorCode loadFromFile();
+    ErrorCode saveToFile() const;
 
-    // 统计（结果通过输出参数返回）
-    struct StatResult
-    {
-        double avg[SUBJECT_COUNT];
-        double max[SUBJECT_COUNT];
-        double min[SUBJECT_COUNT];
-        double totalAvg;
-        const Student *topStudent;
-        const Student *bottomStudent;
-    };
-    ErrorCode getStatistics(StatResult &out) const;
+    void calcStatistics(double avg[], double maxs[], double mins[],
+                        double &totalAvg, int &topIdx, int &bottomIdx) const;
 
-    // 排序：subjectIdx 0=语文,1=数学,2=英语,3=平均分
-    void sortBy(int subjectIdx, bool ascending);
+    void sortStudents(int sortBy, bool ascending);
 
-    bool empty() const { return students_.empty(); }
-    size_t size() const { return students_.size(); }
+    bool isEmpty() const;
+    int getCount() const;
+
+    static bool isIdValid(int id);
+    static bool isNameValid(const std::string &name);
+    static bool isScoreValid(double score);
 
 private:
     std::vector<Student> students_;
-    std::string filename_;
-
-    static bool idValid(int id);
-    static bool nameValid(const std::string &name);
-    static bool scoreValid(double score);
 };
+
+#endif

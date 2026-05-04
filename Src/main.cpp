@@ -2,14 +2,19 @@
 #include "MyConst.h"
 #include "StudentManager.h"
 #include "UI.h"
+#include "Logger.h"
+
+using namespace std;
 
 int main()
 {
     StudentManager manager;
-    ErrorCode ret = manager.load();
-    if (ret != ErrorCode::SUCCESS)
+    ErrorCode ret = manager.loadFromFile();
+
+    if (ret != SUCCESS)
     {
-        showError(ret);
+        Logger::logDebug("main", ret, "加载数据失败");
+        UI::showError(ret);
         return 1;
     }
 
@@ -23,12 +28,6 @@ int main()
         UI::showMenu();
 
         int choice = UI::inputInt("");
-        if (std::cin.fail())
-        {
-            std::cin.clear();
-            std::cin.ignore(1024, '\n');
-            choice = -1;
-        }
 
         switch (choice)
         {
@@ -58,7 +57,8 @@ int main()
             UI::showGoodbye();
             return 0;
         default:
-            showError(ErrorCode::ERROR_INPUT_INVALID);
+            Logger::logDebug("main", ERROR_INPUT_INVALID, "菜单选择错误");
+            UI::showError(ERROR_INPUT_INVALID);
             break;
         }
 

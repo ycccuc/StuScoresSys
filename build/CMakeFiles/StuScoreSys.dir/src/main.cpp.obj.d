@@ -1,11 +1,10 @@
-CMakeFiles/StuScoreSys.dir/src/main.cpp.obj: \
- D:\CodeSave\VSCode_Saved\StuScoresSys\src\main.cpp \
+CMakeFiles/StuScoreSys.dir/Src/main.cpp.obj: \
+ D:\CodeSave\VSCode_Saved\StuScoresSys\Src\main.cpp \
  C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/iostream \
  C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/requires_hosted.h \
  C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/x86_64-w64-mingw32/bits/c++config.h \
  C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/x86_64-w64-mingw32/bits/os_defines.h \
  C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/x86_64-w64-mingw32/bits/cpu_defines.h \
- C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/pstl/pstl_config.h \
  C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/ostream \
  C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/ios \
  C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/iosfwd \
@@ -92,8 +91,6 @@ CMakeFiles/StuScoreSys.dir/src/main.cpp.obj: \
  C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/utility.h \
  C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/debug/debug.h \
  C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/predefined_ops.h \
- C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bit \
- C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/concepts \
  C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/refwrap.h \
  C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/invoke.h \
  C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/range_access.h \
@@ -102,19 +99,12 @@ CMakeFiles/StuScoreSys.dir/src/main.cpp.obj: \
  C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/ext/alloc_traits.h \
  C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/alloc_traits.h \
  C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/stl_construct.h \
- C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/string_view \
- C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/functional_hash.h \
- C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/string_view.tcc \
  C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/ext/string_conversions.h \
  C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/cstdio \
  C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/cerrno \
  C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/charconv.h \
+ C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/functional_hash.h \
  C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/basic_string.tcc \
- C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/memory_resource.h \
- C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/cstddef \
- C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/uses_allocator.h \
- C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/uses_allocator_args.h \
- C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/tuple \
  C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/locale_classes.tcc \
  C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/system_error \
  C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/x86_64-w64-mingw32/bits/error_constants.h \
@@ -133,33 +123,15 @@ CMakeFiles/StuScoreSys.dir/src/main.cpp.obj: \
  C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/ostream.tcc \
  C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/istream \
  C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/istream.tcc \
- D:/CodeSave/VSCode_Saved/StuScoresSys/include/MyConst.h \
- C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/iomanip \
- C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/locale \
- C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/locale_facets_nonio.h \
- C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/ctime \
- C:/mingw64/x86_64-w64-mingw32/include/time.h \
- C:/mingw64/x86_64-w64-mingw32/include/_timeval.h \
- C:/mingw64/x86_64-w64-mingw32/include/pthread_time.h \
- C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/x86_64-w64-mingw32/bits/time_members.h \
- C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/x86_64-w64-mingw32/bits/messages_members.h \
- C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/codecvt.h \
- C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/locale_facets_nonio.tcc \
- C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/locale_conv.h \
- C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/quoted_string.h \
- C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/sstream \
- C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/sstream.tcc \
- D:/CodeSave/VSCode_Saved/StuScoresSys/include/StudentManager.h \
+ D:/CodeSave/VSCode_Saved/StuScoresSys/Include/MyConst.h \
+ D:/CodeSave/VSCode_Saved/StuScoresSys/Include/StudentManager.h \
  C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/vector \
  C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/stl_uninitialized.h \
  C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/stl_vector.h \
  C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/stl_bvector.h \
  C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/vector.tcc \
- C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/array \
- C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/compare \
- C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/fstream \
- C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/x86_64-w64-mingw32/bits/basic_file.h \
- C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/x86_64-w64-mingw32/bits/c++io.h \
- C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/fstream.tcc \
- D:/CodeSave/VSCode_Saved/StuScoresSys/include/Student.h \
- D:/CodeSave/VSCode_Saved/StuScoresSys/include/UI.h
+ D:/CodeSave/VSCode_Saved/StuScoresSys/Include/MyConst.h \
+ D:/CodeSave/VSCode_Saved/StuScoresSys/Include/Student.h \
+ D:/CodeSave/VSCode_Saved/StuScoresSys/Include/UI.h \
+ D:/CodeSave/VSCode_Saved/StuScoresSys/Include/StudentManager.h \
+ D:/CodeSave/VSCode_Saved/StuScoresSys/Include/Logger.h

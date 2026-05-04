@@ -1,12 +1,11 @@
-CMakeFiles/StuScoreSys.dir/src/StudentManager.cpp.obj: \
- D:\CodeSave\VSCode_Saved\StuScoresSys\src\StudentManager.cpp \
- D:/CodeSave/VSCode_Saved/StuScoresSys/include/StudentManager.h \
+CMakeFiles/StuScoreSys.dir/Src/StudentManager.cpp.obj: \
+ D:\CodeSave\VSCode_Saved\StuScoresSys\Src\StudentManager.cpp \
+ D:/CodeSave/VSCode_Saved/StuScoresSys/Include/StudentManager.h \
  C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/vector \
  C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/requires_hosted.h \
  C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/x86_64-w64-mingw32/bits/c++config.h \
  C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/x86_64-w64-mingw32/bits/os_defines.h \
  C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/x86_64-w64-mingw32/bits/cpu_defines.h \
- C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/pstl/pstl_config.h \
  C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/stl_algobase.h \
  C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/functexcept.h \
  C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/exception_defines.h \
@@ -26,8 +25,6 @@ CMakeFiles/StuScoreSys.dir/src/StudentManager.cpp.obj: \
  C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/ptr_traits.h \
  C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/debug/debug.h \
  C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/predefined_ops.h \
- C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bit \
- C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/concepts \
  C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/allocator.h \
  C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/x86_64-w64-mingw32/bits/c++allocator.h \
  C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/new_allocator.h \
@@ -49,26 +46,19 @@ CMakeFiles/StuScoreSys.dir/src/StudentManager.cpp.obj: \
  C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/backward/binders.h \
  C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/range_access.h \
  C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/vector.tcc \
- C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/memory_resource.h \
- C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/cstddef \
- C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/stddef.h \
- C:/mingw64/x86_64-w64-mingw32/include/stddef.h \
- C:/mingw64/x86_64-w64-mingw32/include/crtdefs.h \
- C:/mingw64/x86_64-w64-mingw32/include/corecrt.h \
- C:/mingw64/x86_64-w64-mingw32/include/_mingw.h \
- C:/mingw64/x86_64-w64-mingw32/include/_mingw_mac.h \
- C:/mingw64/x86_64-w64-mingw32/include/_mingw_secapi.h \
- C:/mingw64/x86_64-w64-mingw32/include/vadefs.h \
- C:/mingw64/x86_64-w64-mingw32/include/sdks/_mingw_ddk.h \
- C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/uses_allocator.h \
- C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/uses_allocator_args.h \
- C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/tuple \
+ D:/CodeSave/VSCode_Saved/StuScoresSys/Include/MyConst.h \
  C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/string \
  C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/stringfwd.h \
  C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/char_traits.h \
  C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/postypes.h \
  C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/cwchar \
  C:/mingw64/x86_64-w64-mingw32/include/wchar.h \
+ C:/mingw64/x86_64-w64-mingw32/include/corecrt.h \
+ C:/mingw64/x86_64-w64-mingw32/include/_mingw.h \
+ C:/mingw64/x86_64-w64-mingw32/include/_mingw_mac.h \
+ C:/mingw64/x86_64-w64-mingw32/include/_mingw_secapi.h \
+ C:/mingw64/x86_64-w64-mingw32/include/vadefs.h \
+ C:/mingw64/x86_64-w64-mingw32/include/sdks/_mingw_ddk.h \
  C:/mingw64/x86_64-w64-mingw32/include/corecrt_stdio_config.h \
  C:/mingw64/x86_64-w64-mingw32/include/corecrt_wstdlib.h \
  C:/mingw64/x86_64-w64-mingw32/include/_mingw_off_t.h \
@@ -79,6 +69,7 @@ CMakeFiles/StuScoreSys.dir/src/StudentManager.cpp.obj: \
  C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/x86_64-w64-mingw32/bits/c++locale.h \
  C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/clocale \
  C:/mingw64/x86_64-w64-mingw32/include/locale.h \
+ C:/mingw64/x86_64-w64-mingw32/include/crtdefs.h \
  C:/mingw64/x86_64-w64-mingw32/include/stdio.h \
  C:/mingw64/x86_64-w64-mingw32/include/sec_api/stdio_s.h \
  C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/iosfwd \
@@ -87,8 +78,6 @@ CMakeFiles/StuScoreSys.dir/src/StudentManager.cpp.obj: \
  C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/ostream_insert.h \
  C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/cxxabi_forced.h \
  C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/basic_string.h \
- C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/string_view \
- C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/string_view.tcc \
  C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/ext/string_conversions.h \
  C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/cstdlib \
  C:/mingw64/x86_64-w64-mingw32/include/stdlib.h \
@@ -105,14 +94,15 @@ CMakeFiles/StuScoreSys.dir/src/StudentManager.cpp.obj: \
  C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/cerrno \
  C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/charconv.h \
  C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/basic_string.tcc \
- C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/array \
- C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/compare \
- C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/fstream \
- C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/istream \
+ D:/CodeSave/VSCode_Saved/StuScoresSys/Include/Student.h \
+ C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/iostream \
+ C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/ostream \
  C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/ios \
  C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/exception \
  C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/exception_ptr.h \
  C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/cxxabi_init_exception.h \
+ C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/stddef.h \
+ C:/mingw64/x86_64-w64-mingw32/include/stddef.h \
  C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/typeinfo \
  C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/nested_exception.h \
  C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/ios_base.h \
@@ -138,38 +128,17 @@ CMakeFiles/StuScoreSys.dir/src/StudentManager.cpp.obj: \
  C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/x86_64-w64-mingw32/bits/ctype_inline.h \
  C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/locale_facets.tcc \
  C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/basic_ios.tcc \
- C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/ostream \
  C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/ostream.tcc \
+ C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/istream \
  C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/istream.tcc \
+ C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/fstream \
  C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/codecvt.h \
  C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/x86_64-w64-mingw32/bits/basic_file.h \
  C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/x86_64-w64-mingw32/bits/c++io.h \
  C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/fstream.tcc \
- D:/CodeSave/VSCode_Saved/StuScoresSys/include/Student.h \
- C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/iostream \
- D:/CodeSave/VSCode_Saved/StuScoresSys/include/MyConst.h \
- C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/iomanip \
- C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/locale \
- C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/locale_facets_nonio.h \
- C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/ctime \
- C:/mingw64/x86_64-w64-mingw32/include/time.h \
- C:/mingw64/x86_64-w64-mingw32/include/_timeval.h \
- C:/mingw64/x86_64-w64-mingw32/include/pthread_time.h \
- C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/x86_64-w64-mingw32/bits/time_members.h \
- C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/x86_64-w64-mingw32/bits/messages_members.h \
- C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/locale_facets_nonio.tcc \
- C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/locale_conv.h \
- C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/quoted_string.h \
- C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/sstream \
- C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/sstream.tcc \
  C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/algorithm \
  C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/stl_algo.h \
  C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/algorithmfwd.h \
  C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/stl_heap.h \
  C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/uniform_int_dist.h \
- C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/stl_tempbuf.h \
- C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/pstl/glue_algorithm_defs.h \
- C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/pstl/execution_defs.h \
- C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/numeric \
- C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/stl_numeric.h \
- C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/pstl/glue_numeric_defs.h
+ C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/stl_tempbuf.h
