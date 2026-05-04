@@ -145,4 +145,6 @@ CMakeFiles/StuScoreSys.dir/Src/UI.cpp.obj: \
  C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/codecvt.h \
  C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/locale_facets_nonio.tcc \
  C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/locale_conv.h \
+ C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/sstream \
+ C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/sstream.tcc \
  C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/limits

@@ -2,7 +2,10 @@
   "permissions": {
     "allow": [
       "Bash(cmake ..)",
-      "Bash(cmake --build .)"
+      "Bash(cmake --build .)",
+      "Bash(cmd //c \"taskkill /F /IM StuScoreSys.exe 2>nul & del /F d:\\\\CodeSave\\\\VSCode_Saved\\\\StuScoresSys\\\\build\\\\bin\\\\StuScoreSys.exe 2>nul\")",
+      "Bash(powershell -Command \"Stop-Process -Name StuScoreSys -Force -ErrorAction SilentlyContinue; Remove-Item 'd:\\\\CodeSave\\\\VSCode_Saved\\\\StuScoresSys\\\\build\\\\bin\\\\StuScoreSys.exe' -Force -ErrorAction SilentlyContinue\")",
+      "Bash(dir \"d:\\\\CodeSave\\\\VSCode_Saved\\\\StuScoresSys\\\\build\\\\bin\\\\*.txt\")"
     ]
   }
 }

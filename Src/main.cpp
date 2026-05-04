@@ -11,6 +11,8 @@ int main()
     StudentManager manager;
     ErrorCode ret = manager.loadFromFile();
 
+    Logger::logDebug("main", SUCCESS, "程序启动，数据已加载");
+
     if (ret != SUCCESS)
     {
         Logger::logDebug("main", ret, "加载数据失败");
@@ -53,6 +55,7 @@ int main()
             UI::funcSort(manager);
             break;
         case 0:
+            Logger::logDebug("main", SUCCESS, "程序正常退出");
             UI::clearScreen();
             UI::showGoodbye();
             return 0;

@@ -60,14 +60,13 @@ ErrorCode StudentManager::modifyStudent(int id, const double newScores[SUBJECT_C
 
 int StudentManager::findStudent(int id) const
 {
-    for (size_t i = 0; i < students_.size(); i++)
+    auto it = std::find_if(students_.begin(), students_.end(),
+        [id](const Student &s) { return s.getId() == id; });
+    if (it == students_.end())
     {
-        if (students_[i].getId() == id)
-        {
-            return static_cast<int>(i);
-        }
+        return -1;
     }
-    return -1;
+    return static_cast<int>(std::distance(students_.begin(), it));
 }
 
 Student StudentManager::getStudent(int index) const
@@ -183,92 +182,24 @@ void StudentManager::calcStatistics(double avg[], double maxs[], double mins[],
     totalAvg /= n;
 }
 
-static bool compareByChineseAsc(const Student &a, const Student &b)
-{
-    return a.getScore(0) < b.getScore(0);
-}
-
-static bool compareByChineseDesc(const Student &a, const Student &b)
-{
-    return a.getScore(0) > b.getScore(0);
-}
-
-static bool compareByMathAsc(const Student &a, const Student &b)
-{
-    return a.getScore(1) < b.getScore(1);
-}
-
-static bool compareByMathDesc(const Student &a, const Student &b)
-{
-    return a.getScore(1) > b.getScore(1);
-}
-
-static bool compareByEnglishAsc(const Student &a, const Student &b)
-{
-    return a.getScore(2) < b.getScore(2);
-}
-
-static bool compareByEnglishDesc(const Student &a, const Student &b)
-{
-    return a.getScore(2) > b.getScore(2);
-}
-
-static bool compareByAvgAsc(const Student &a, const Student &b)
-{
-    return a.getAverage() < b.getAverage();
-}
-
-static bool compareByAvgDesc(const Student &a, const Student &b)
-{
-    return a.getAverage() > b.getAverage();
-}
-
 void StudentManager::sortStudents(int sortBy, bool ascending)
 {
-    if (sortBy == SORT_BY_CHINESE)
-    {
-        if (ascending)
-        {
-            std::sort(students_.begin(), students_.end(), compareByChineseAsc);
-        }
-        else
-        {
-            std::sort(students_.begin(), students_.end(), compareByChineseDesc);
-        }
-    }
-    else if (sortBy == SORT_BY_MATH)
-    {
-        if (ascending)
-        {
-            std::sort(students_.begin(), students_.end(), compareByMathAsc);
-        }
-        else
-        {
-            std::sort(students_.begin(), students_.end(), compareByMathDesc);
-        }
-    }
-    else if (sortBy == SORT_BY_ENGLISH)
-    {
-        if (ascending)
-        {
-            std::sort(students_.begin(), students_.end(), compareByEnglishAsc);
-        }
-        else
-        {
-            std::sort(students_.begin(), students_.end(), compareByEnglishDesc);
-        }
-    }
-    else if (sortBy == SORT_BY_AVERAGE)
-    {
-        if (ascending)
-        {
-            std::sort(students_.begin(), students_.end(), compareByAvgAsc);
-        }
-        else
-        {
-            std::sort(students_.begin(), students_.end(), compareByAvgDesc);
-        }
-    }
+    std::sort(students_.begin(), students_.end(),
+        [sortBy, ascending](const Student &a, const Student &b) {
+            double va, vb;
+            if (sortBy == SORT_BY_AVERAGE)
+            {
+                va = a.getAverage();
+                vb = b.getAverage();
+            }
+            else
+            {
+                int idx = sortBy - 1; // SORT_BY_CHINESE=1 → 语文下标=0
+                va = a.getScore(idx);
+                vb = b.getScore(idx);
+            }
+            return ascending ? (va < vb) : (va > vb);
+        });
 }
 
 bool StudentManager::isEmpty() const
@@ -288,7 +219,16 @@ bool StudentManager::isIdValid(int id)
 
 bool StudentManager::isNameValid(const std::string &name)
 {
-    return !name.empty() && name.length() < static_cast<size_t>(MAX_NAME_LEN);
+    if (name.empty() || name.length() >= static_cast<size_t>(MAX_NAME_LEN))
+    {
+        return false;
+    }
+    // 拒绝纯空白（空格/制表符组成的"假"名字）
+    if (name.find_first_not_of(" \t") == std::string::npos)
+    {
+        return false;
+    }
+    return true;
 }
 
 bool StudentManager::isScoreValid(double score)

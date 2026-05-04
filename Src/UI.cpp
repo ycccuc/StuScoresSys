@@ -2,6 +2,7 @@
 #include "Logger.h"
 #include <iostream>
 #include <iomanip>
+#include <sstream>
 #include <cstdlib>
 #include <limits>
 
@@ -30,6 +31,7 @@ void UI::showError(int errorCode)
     cout << "╔════════════════════════════════════════════════╗\n";
     cout << "║  【错误】" << left << setw(38) << msg << "║\n";
     cout << "║  错误码: " << left << setw(4) << errorCode << "                                  ║\n";
+    cout << "║  详情已记录到 debug.txt                        ║\n";
     cout << "╚════════════════════════════════════════════════╝\n";
 }
 
@@ -79,18 +81,18 @@ void UI::showMenu()
 
 void UI::printHeader()
 {
-    cout << "┌────────┬────────────────────┬─────────┬─────────┬─────────┬─────────┐\n";
-    cout << "│ 学号   │ 姓名               │";
+    cout << "┌──────────┬────────────────────┬─────────┬─────────┬─────────┬─────────┐\n";
+    cout << "│ 学号     │ 姓名               │";
     cout << " " << left << setw(7) << SUBJECT_NAMES[0] << " │";
     cout << " " << left << setw(7) << SUBJECT_NAMES[1] << " │";
     cout << " " << left << setw(7) << SUBJECT_NAMES[2] << " │";
     cout << " 平均分  │\n";
-    cout << "├────────┼────────────────────┼─────────┼─────────┼─────────┼─────────┤\n";
+    cout << "├──────────┼────────────────────┼─────────┼─────────┼─────────┼─────────┤\n";
 }
 
 void UI::printRow(const Student &s)
 {
-    cout << "│" << left << setw(6) << s.getId() << " │";
+    cout << "│ " << right << setw(8) << s.getId() << " │";
     cout << " " << left << setw(18) << s.getName() << " │";
     cout << " " << right << setw(7) << fixed << setprecision(2) << s.getScore(0) << " │";
     cout << " " << right << setw(7) << fixed << setprecision(2) << s.getScore(1) << " │";
@@ -100,7 +102,7 @@ void UI::printRow(const Student &s)
 
 void UI::printFooter()
 {
-    cout << "└────────┴────────────────────┴─────────┴─────────┴─────────┴─────────┘\n";
+    cout << "└──────────┴────────────────────┴─────────┴─────────┴─────────┴─────────┘\n";
 }
 
 void UI::printStatHeader()
@@ -126,29 +128,37 @@ void UI::printStatFooter()
 int UI::inputInt(const string &prompt)
 {
     int value;
+    string line;
     while (true)
     {
         cout << prompt;
-        cin >> value;
+        getline(cin, line);
 
-        if (cin.fail())
+        // 纯空白或空行 → 提示用户，重新输入
+        if (line.find_first_not_of(" \t") == string::npos)
         {
-            cin.clear();
-            cin.ignore(numeric_limits<streamsize>::max(), '\n');
+            cout << "【错误】输入不能为空，请重新输入！\n";
+            continue;
+        }
+
+        stringstream ss(line);
+        ss >> value;
+
+        if (ss.fail())
+        {
             cout << "【错误】请输入有效的整数！\n";
             continue;
         }
 
-        char c = cin.peek();
-        if (c != '\n' && c != EOF)
+        // 检查是否有多余字符（如 "123abc"）
+        string extra;
+        ss >> extra;
+        if (!extra.empty())
         {
-            cin.clear();
-            cin.ignore(numeric_limits<streamsize>::max(), '\n');
             cout << "【错误】输入包含非法字符，请只输入整数！\n";
             continue;
         }
 
-        cin.ignore(numeric_limits<streamsize>::max(), '\n');
         return value;
     }
 }
@@ -156,39 +166,55 @@ int UI::inputInt(const string &prompt)
 double UI::inputDouble(const string &prompt)
 {
     double value;
+    string line;
     while (true)
     {
         cout << prompt;
-        cin >> value;
+        getline(cin, line);
 
-        if (cin.fail())
+        if (line.find_first_not_of(" \t") == string::npos)
         {
-            cin.clear();
-            cin.ignore(numeric_limits<streamsize>::max(), '\n');
+            cout << "【错误】输入不能为空，请重新输入！\n";
+            continue;
+        }
+
+        stringstream ss(line);
+        ss >> value;
+
+        if (ss.fail())
+        {
             cout << "【错误】请输入有效的数字！\n";
             continue;
         }
 
-        char c = cin.peek();
-        if (c != '\n' && c != EOF)
+        string extra;
+        ss >> extra;
+        if (!extra.empty())
         {
-            cin.clear();
-            cin.ignore(numeric_limits<streamsize>::max(), '\n');
             cout << "【错误】输入包含非法字符，请只输入数字！\n";
             continue;
         }
 
-        cin.ignore(numeric_limits<streamsize>::max(), '\n');
         return value;
     }
 }
 
 string UI::inputLine(const string &prompt)
 {
-    cout << prompt;
     string line;
-    getline(cin, line);
-    return line;
+    while (true)
+    {
+        cout << prompt;
+        getline(cin, line);
+
+        if (line.find_first_not_of(" \t") == string::npos)
+        {
+            cout << "【错误】输入不能为空，请重新输入！\n";
+            continue;
+        }
+
+        return line;
+    }
 }
 
 void UI::funcAdd(StudentManager &mgr)
